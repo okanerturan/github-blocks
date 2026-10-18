@@ -9,7 +9,7 @@ in place.
 
 ## Reporting a vulnerability
 
-Please use [GitHub's private vulnerability reporting form](https://github.com/okturan/github-blocks/security/advisories/new)
+Please use [GitHub's private vulnerability reporting form](https://github.com/okanerturan/github-blocks/security/advisories/new)
 instead of opening a public issue. Include the affected renderer or page, the
 input that triggers the problem, the generated SVG when relevant, and the
 browser or GitHub surface where you confirmed the impact.

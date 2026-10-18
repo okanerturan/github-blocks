@@ -4,14 +4,14 @@ Custom SVG modules for GitHub profile READMEs. Each block is a pure function:
 data in, a self-contained SVG string out. Generate the SVG in CI, commit it to
 an output branch, embed it in the README with a plain `<img>`.
 
-**Configurator: <https://okturan.github.io/github-blocks/>** lets you preview
+**Configurator: <https://okanerturan.github.io/github-blocks/>** lets you preview
 every block and copy the code needed to add one to a profile. Graph games
 (tower defense and Commit Life) and activity blocks include a scheduled
 workflow. Anime blocks include a Node script. The site uses the same
 renderers as this repository. The DOWNLOAD tab can save the current graph
 block as SVG. Chrome and Edge can also export one silent H.264 loop.
 
-Started with the anime section of [okturan/okturan](https://github.com/okturan/okturan);
+Started with the anime section of [okturan/okturan](https://github.com/okanerturan/okturan);
 more blocks will land here as they get built.
 
 ## See them render
@@ -21,16 +21,16 @@ graph block to open the configurator and generate the same kind of block for you
 own contribution graph.
 
 <p>
-  <a href="https://okturan.github.io/github-blocks/#lane-defense"><img width="896" alt="Lane Defense: fortress days splash, bug waves march the weekday lanes, leaks hit a core" src="./examples/out/lane-defense.svg"></a>
+  <a href="https://okanerturan.github.io/github-blocks/#lane-defense"><img width="896" alt="Lane Defense: fortress days splash, bug waves march the weekday lanes, leaks hit a core" src="./examples/out/lane-defense.svg"></a>
 </p>
 <p>
-  <a href="https://okturan.github.io/github-blocks/#night-shift"><img width="896" alt="Night Shift routing enemies through a contribution graph while nearby towers fire" src="./examples/out/night-shift.svg"></a>
+  <a href="https://okanerturan.github.io/github-blocks/#night-shift"><img width="896" alt="Night Shift routing enemies through a contribution graph while nearby towers fire" src="./examples/out/night-shift.svg"></a>
 </p>
 <p>
-  <a href="https://okturan.github.io/github-blocks/#boss-fight"><img width="896" alt="Boss Fight pitting contribution cells against an animated snake boss" src="./examples/out/boss-fight.svg"></a>
+  <a href="https://okanerturan.github.io/github-blocks/#boss-fight"><img width="896" alt="Boss Fight pitting contribution cells against an animated snake boss" src="./examples/out/boss-fight.svg"></a>
 </p>
 <p>
-  <a href="https://okturan.github.io/github-blocks/#commit-life"><img width="896" alt="Commit Life running Conway's Game of Life on a GitHub contribution graph" src="./examples/out/commit-life.svg"></a>
+  <a href="https://okanerturan.github.io/github-blocks/#commit-life"><img width="896" alt="Commit Life running Conway's Game of Life on a GitHub contribution graph" src="./examples/out/commit-life.svg"></a>
 </p>
 <p>
   <a href="./examples/out/cinematic-strip.svg"><img width="896" alt="Cinematic Strip rendering three media covers as a wide profile card" src="./examples/out/cinematic-strip.svg"></a>
@@ -228,7 +228,7 @@ output, or if an output introduces executable script content.
 
 ### Use the graph blocks without writing code
 
-The [configurator](https://okturan.github.io/github-blocks/) generates a
+The [configurator](https://okanerturan.github.io/github-blocks/) generates a
 workflow that checks out this repo at a pinned commit and runs
 `action/generate.mjs` on GitHub's runners. No vendoring or hosting is needed. Config
 is all env vars: `BLOCK` (`lane-defense` / `night-shift` / `boss-fight` / `commit-life`),
